@@ -1,0 +1,21 @@
+{
+  "name": "cm6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.19.1",
+    "@codemirror/commands": "^0.19.6",
+    "@codemirror/lang-javascript": "^0.19.3",
+    "@codemirror/lang-markdown": "^0.19.3",
+    "@codemirror/view": "^0.19.37",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "rollup": "^2.62.0"
+  }
+}
